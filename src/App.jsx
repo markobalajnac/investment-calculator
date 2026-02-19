@@ -1,10 +1,11 @@
 import UserInput from "./components/UserInput";
+import Results from "./components/Results";
 
 function App() {
   return (
     <>
       <UserInput />
-      <p>Results</p>
+      <Results></Results>
     </>
   );
 }
